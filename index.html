@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DIM-XAUS</title>
+        <link rel="shortcut icon" href="./icons/dim-xaus-icon.svg" type="image/x-icon" />
+        <link rel="icon" href="./icons/dim-xaus-icon.svg" type="image/x-icon" />
+        <link rel="stylesheet" href="./styles/reset from Lamkov.css"/>
+        <link rel="stylesheet" href="./styles/styles.css" />
+    </head>
+    <body>
+        <header id="header">
+            <div class="age-overlay">
+                <div class="age-modal">
+                    <h2>18+</h2>
+                    <h3>Вам больше 18 лет?</h3>
+                    <p>
+                        Данный Сайт не является рекламой, так как предназначен для ограниченного круга лиц,
+                        а именно для совершеннолетних потребителей табачной продукции (граждан России старше 18 лет) 
+                        для предоставления им достоверной информации об основных потребительских свойствах и качественных характеристик 
+                        табачной продукции и аксессуарах для курения (п.1 и п.2 ст.10 Закона «О защите прав Потребителя»).
+                        Лицам, не достигшим совершеннолетия, пользование Сайтом запрещено. (ст. 20 ФЗ №15 «Об охране здоровья граждан..»)
+                        При переходе на сайт я подтверждаю, что мне уже исполнилось 18 лет, я являюсь потребителем табака или иной 
+                        никотинсодержащей продукции и даю согласие на обработку персональных данных
+                    </p>
+                    <button class="age-btn-yes">Да, мне уже есть 18 лет</button>
+                    <button class="age-btn-no">Нет, мне еще не 18 лет</button>
+                </div>
+            </div>
+            <div class="header">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a>
+                            <img src="./icons/dim-xaus-icon.svg" alt="logo"
+                                class="header__logo-image" width="64"
+                                height="64"
+                                loading="lazy" />
+                        </a>
+                        <p class="logo"><span>ДЫМ</span>ХАУС</p>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <a href="index.html" class="header__menu-link active-link">Главная страница</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#slogan" class="header__menu-link">Каталог</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#about" class="header__menu-link">О нас</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="#contact" class="header__menu-link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__wrapper">
+                    <h3>Добро пожаловать в <span>ДЫМ</span>ХАУС</h3></p>
+                    <h1 class="title">Курению - стоп <br><span>Вейпингу</span> - старт
+                    </h1>
+                    <p class="header__title">
+                        Добро пожаловать на наш сайт! Здесь вы найдёте всё, что связано с вейпингом: стильные устройства, широкий  выбор вкусов
+                        и современные решения. Мы верим, что вейпинг - это не просто альтернатива, а новый образ жизни, в котором нет места дыму 
+                        и запаху сигарет. Это свобода, лёгкость и возможность подобрать свой уникальный вкус, который будет сопровождать вас 
+                        каждый день.
+                    </p>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slide active"
+                    style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black 100%), url(./images/image-1.jpg) center/cover;"></div>
+                <div class="slide"
+                    style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black 100%), url(./images/image-2.jpg) center/cover;"></div>
+                <div class="slide"
+                    style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black 100%), url(./images/image-3.jpg) center/cover;"></div>
+                <div class="slide"
+                    style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black 100%), url(./images/image-4.jpg) center/cover;"></div>
+                <div class="slide"
+                    style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, black 100%), url(./images/image-5.jpg) center/cover;"></div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="container">
+                <div class="row" id="target-row">
+                    <div class="card card-left active-card">
+                        <div class="card__title">
+                            <img src="./icons/icon-like.png" alt="icon-like" />
+                            <h2>POD-СИСТЕМЫ</h2>
+                        </div>
+                        <p>
+                            Наш каталог включает самые популярные и современные pod-системы,  
+                            которые сочетают в себе удобство, эргономику и привлекательный дизайн.
+                            Подбери устройство, которое подчеркнёт твой стиль.
+                        </p>
+                    </div>
+                    <div class="card card-center">
+                        <div class="card__title">
+                            <img src="./icons/icon-money.png" alt="icon-money" />
+                            <h2>ХОРОШИЕ ЦЕНЫ</h2>
+                        </div>
+                        <p>
+                            Мы предлагаем продукцию напрямую от проверенных поставщиков, поэтому 
+                            у нас всегда доступные цены без лишних наценок. Здесь ты найдёшь 
+                            лучшие предложения на рынке.
+                        </p>
+                    </div>
+                    <div class="card card-right">
+                        <div class="card__title">
+                            <img src="./icons/icon-quality.png" alt="icon-quality" />
+                            <h2>ЛУЧШЕЕ КАЧЕСТВО</h2>
+                        </div>
+                        <p>
+                            Все товары проходят строгий контроль и соответствуют стандартам безопасности.
+                            Мы гарантируем оригинальность продукции и безупречное качество каждой 
+                            pod-системы и жидкости.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="container" >
+                <div class="about" id="about">
+                    <div class="about__image">
+                        <img src="./images/image-0.jpg" alt="smoking girl" />
+                    </div>
+                    <div class="about__description">
+                        <div class="box from-left">
+                            <h3>О <span>ДЫМ</span>ХАУСЕ</h3>
+                            <h2>Мы - Лучший вейп-магазин в городе</h2>
+                            <p>
+                                У нас вы найдёте стильные pod-системы, жидкости с уникальными вкусами и 
+                                современные аксессуары для вейпов. Мы предлагаем только проверенные
+                                бренды по честным ценам и регулярно обновляем ассортимент. 
+                                Наша команда всегда поможет подобрать устройство и вкус под любой стиль.
+                            </p>
+                        </div>
+                        <div class="box from-right">
+                            <ul>
+                                <li >&check; Лучший вейп-магазин</li>
+                                <li >&check; Дружелюбное обслуживание</li>
+                                <li >&check; 100% Гарантия</li>
+                            </ul>
+                            <ul>
+                                <li >&check; Хорошие цены</li>
+                                <li >&check; Лучшее качество продукции</li>
+                                <li >&check; Широкий выбор</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <div class="hover-area" id="hover-area">
+                    <div class="left-side">
+                        <img src="./images/dragx2.jpg" alt="drax X2" />
+                    </div>
+                    <div class="right-side" id="skills">
+                        <h3>Drag X Pro</h3>
+                        <div class="skill" data-percent="95">
+                            <div class="skill-name">Батарея</div>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                            <div class="percent">0%</div>
+                        </div>
+                        <div class="skill" data-percent="80">
+                            <div class="skill-name">Диапазон напряжения</div>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                            <div class="percent">0%</div>
+                        </div>
+                        <div class="skill" data-percent="95">
+                            <div class="skill-name">Функции безопасности</div>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                            <div class="percent">0%</div>
+                        </div>
+                        <div class="skill" data-percent="90">
+                            <div class="skill-name">Контроль потока воздуха</div>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                            <div class="percent">0%</div>
+                        </div>
+                        <div class="skill" data-percent="85">
+                            <div class="skill-name">Емкость картриджа</div>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                            <div class="percent">0%</div>
+                        </div>
+                        <div class="skill" data-percent="90">
+                            <div class="skill-name">Мощность</div>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                            <div class="percent">0%</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="slogan">
+                <div class="container">
+                    <div class="slogan-text">
+                        <h3 ><span>ДЫМ</span>ХАУС</h3>
+                        <a href="#product" class="more-btn">
+                            <div class="border-1">
+                                <div class="border-2"></div>
+                            </div>
+                            <span id="seeProduct">Каталог</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="product" >
+                <div class="container" id="product">
+                    <div class="cards">
+                        <div class="cards-card" onclick="openModal(1)">
+                            <img src="./images/vozol.jpg" alt="одноразовые сигареты" />
+                            <h4>Одноразовые сигареты</h4>
+                            <p>Без лишних настроек и забот - просто открой и наслаждайся вкусом.</p>
+                        </div>
+                        <div class="cards-card" onclick="openModal(2)">
+                            <img src="./images/dual.jpg" alt="жидкость" />
+                            <h4>Жидкости</h4>
+                            <p>Жидкости с насыщенными вкусами для ярких ощущений каждый день.</p>
+                        </div>
+                        <div class="cards-card" onclick="openModal(3)">
+                            <img src="./images/draq.jpg" alt="электронные сигареты" />
+                            <h4>Электронные сигареты</h4>
+                            <p>Вейпы нового поколения дарят чистый вкус и комфортное парение.</p>
+                        </div>
+                        <div class="cards-card" onclick="openModal(4)">
+                            <img src="./images/xros.jpg" alt="pod-системы" />
+                            <h4>Pod-системы</h4>
+                            <p>Pod-системы  - компактность и удобство в любом месте.</p>
+                        </div>
+                        <div class="cards-card" onclick="openModal(5)">
+                            <img src="./images/картридж.jpg" alt="аксессуары" />
+                            <h4>Аксессуары</h4>
+                            <p>Картриджи и испарители - основа чистого вкуса и густого пара.</p>
+                        </div>
+                        <div class="cards-card" onclick="openModal(6)">
+                            <img src="./images/снюс.webp" alt="жевательный табак" />
+                            <h4>Жевательный табак</h4>
+                            <p>Жевательный табак - насыщенный вкус и быстрый эффект без дымаю</p>
+                        </div>
+                        <div class="cards-card" onclick="openModal(7)">
+                            <img src="./images/кальян.jpg" alt="кальян" />
+                            <h4>Кальяны</h4>
+                            <p>Кальян - это больше, чем традиция, это стиль общения.</p>
+                        </div>
+                        <div class="cards-card" onclick="openModal(8)">
+                            <img src="./images/табак.jpg" alt="табак" />
+                            <h4>Табак</h4>
+                            <p>Каждая затяжка приносит мягкий и долгий вкус безлишней горечи</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-1" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(1)">&times;</span>
+                        <h2>Одноразовые электронные сигареты</h2>
+                        <div class="modal-content-description">
+                            <img src="./images/vozol.jpg" alt="электронные сигареты" />
+                            <p>
+                                У нас вы можете приобрести одноразовые электронные сигареты от популярных брендов:<b> Vozol, 
+                                Jackbar, Waka, Husky, Lost Mary, Fumo, Trava, Elfbar, Gang, Inflave, Puffmi </b> и многих других.
+                                В наличии широкий выбор устройств с самыми разнообразными вкусами — от классических фруктовых 
+                                и ягодных до оригинальных десертных и освежающих мятных сочетаний.Мы предлагаем только
+                                качественные и проверенные модели, которые подойдут как новичкам, так и опытным любителям вейпов.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-2" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(2)">&times;</span>
+                        <h2>Жидкости</h2>
+                        <div class="modal-content-description">
+                            <img src="./images/dual.jpg" alt="Жидкости" />
+                            <p>
+                                У нас представлен широкий выбор жидкостей для вейпов от популярных брендов:<b> Brusko, Dual, Gang,
+                                Hotspot, Husky, Nasty, Pod Onki, Skala, Анархия, Isterika, Грех, Narcoz </b> и многих других.
+                                В ассортименте — фруктовые, ягодные, мятные, десертные и табачные вкусы,
+                                с различной крепостью никотина, а также безникотиновые варианты.
+                                Каждый сможет подобрать вкус под своё настроение и стиль парения.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-3" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(3)">&times;</span>
+                        <h2>Электронные сигареты</h2>
+                        <div class="modal-content-description">
+                            <img src="./images/draq.jpg" alt="электронные сигареты" />
+                            <p>
+                                Вот подборка популярных электронных сигарет, включая модели <b>VooPoo, Smoant и GeekVape, </b>
+                                которые можно приобрести по разумной цене:<br />
+                                <b>VooPoo Drag X2 :</b>
+                                Мощный под-мод с диапазоном мощности 5–80 Вт, использующий сменный аккумулятор 18650 (не входит в комплект). <br />
+                                <b>VooPoo Argus Pro 2 : </b>
+                                Под-мод с интегрированным аккумулятором 3000 мАч и диапазоном мощности 5–80 Вт. <br />
+                                <b>VooPoo Drag H80S : </b>
+                                Компактный под-мод с диапазоном мощности 5–80 Вт и вместимостью пода 4.5 мл. <br />
+                                <b>Smoant Pasito 1 : </b>
+                                Компактный под-система с емкостью аккумулятора 1100 мАч и двумя типами катушек: MTL и DTL. <br />
+                                <b>Smoant Pasito 2 : </b>
+                                Под-система с мощностью 80 Вт, емкостью аккумулятора 2500 мАч и вместимостью пода 6 мл. <br />
+                                <b>Smoant Knight 40 : </b>
+                                Компактный под-система с максимальной мощностью 40 Вт, емкостью аккумулятора 1500 мАч и вместимостью пода 3.5 мл. <br />
+                                <b>Smoant Knight 80 : </b>
+                                Под-система с мощностью 80 Вт, заменяемым аккумулятором 18650 и вместимостью пода 4 мл. <br />
+                                <b>GeekVape Aegis Boost LE :</b>
+                                Под-система с мощностью 40 Вт, встроенным аккумулятором 1500 мАч и вместимостью пода 3.7 мл.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-4" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(4)">&times;</span>
+                        <h2>Под-системы</h2>
+                        <div class="modal-content-description">
+                            <img src="./images/xros.jpg" alt="Pod-системы" />
+                            <div>
+                                <div>
+                                    <h3>Vaporesso XROS Series</h3>
+                                    <p>
+                                        <b>Vaporesso XROS 5</b>  <br />
+                                        Преимущества: Большой 1500 мАч аккумулятор, регулируемый обдув, быстрая зарядка, настраиваемый экран, поддержка нескольких режимов мощности. <br />
+                                        Недостатки: Экран может царапаться, ограниченное количество цветовых решений. <br />
+                                        <b>Vaporesso XROS Pro</b> <br />
+                                        Преимущества: Большой 1200 мАч аккумулятор, регулируемая мощность, активация кнопкой, защелкивающаяся крышка, совместимость с подами XROS. <br />
+                                        Недостатки: Отсутствие регулировки обдува, ограниченная настройка мощности. <br>
+                                        <b>Vaporesso XROS 5 Mini</b> <br />
+                                        Преимущества: 1500 мАч аккумулятор, регулируемый обдув, активация затяжкой, простая заправка. <br />
+                                        Недостатки: Отсутствие кнопки активации, ограниченная настройка мощности. <br />
+                                    </p>
+                                </div>
+                                <div>
+                                    <h3> VooPoo Series</h3>
+                                    <p>
+                                        <b>VooPoo Vinci Pod SE: </b> Легкий и портативный, активация затяжкой, простая заправка, отсутствие протечек. <br />
+                                        <b>VooPoo Argus G2 Mini: </b>VooPoo Argus G2 Mini: Компактный дизайн, активация затяжкой, простая заправка. <br />
+                                        <b>VooPoo Argus G: </b> Более мощный аккумулятор, регулируемый обдув, активация кнопкой. <br />
+                                        <b>VooPoo Argus G3: </b> Улучшенная вкусопередача, более стабильная работа. <br />
+                                        <b>VooPoo Argus G3 Mini: </b> Компактный и легкий, активация затяжкой. <br />
+                                        <b>VooPoo Argus A: </b>  Мощный аккумулятор, регулируемый обдув, активация кнопкой. <br />
+                                        <b>VooPoo VMate E: </b> Компактный и легкий, активация затяжкой, простая заправка. <br />
+                                        <b>VooPoo VMate I2: </b> Улучшенная вкусопередача, более стабильная работа. <br />
+                                        <b>VooPoo Drag Nano 2: </b> Компактный дизайн, активация затяжкой, простая заправка.
+                                    </p>
+                                </div>
+                                <div>
+                                    <h3>GeekVape Series</h3>
+                                    <p>
+                                        <b>GeekVape Aegis One: </b> Прочный корпус, активация затяжкой, простая заправка. <br />
+                                        <b>GeekVape AQ: </b> Компактный и легкий, активация затяжкой, простая заправка. <br />
+                                        <b>GeekVape Sonder Q: </b> улучшенная вкусопередача, более стабильная работа, активация затяжкой. <br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-5" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(5)">&times;</span>
+                        <h2>Аксессуары</h2>
+                        <div class="modal-content-description">
+                            <img src="./images/картридж.jpg" alt="аксессуары" />
+                            <div>
+                                <p>
+                                    <b>Что такое картридж?</b> <br />
+                                    <b>Картридж </b> - это резервуар, который выполняет несколько функций: <br />
+                                    Хранит жидкость для парения. <br />
+                                    Содержит испаритель (или встроенный, или сменный). <br />
+                                    Обеспечивает подачу жидкости к испарителю через фитиль. <br />
+                                    Формирует воздушный канал для затяжки. <br />
+                                    Включает мундштук (дрип-тип) для вдыхания пара. <br />
+                                    <b>Виды картриджей:</b><br />
+                                    1.Со встроенным испарителем: испаритель установлен на заводе и не подлежит замене. При выходе из строя меняется весь картридж. <br />
+                                    2.Со сменным испарителем: позволяет заменить только испаритель, продлевая срок службы картриджа.<br />
+                                </p>
+                                <p>
+                                    <b>Что такое испаритель?</b> <br />
+                                    <b> Испаритель (или койл)</b> - это элемент, который преобразует жидкость в пар: <br />
+                                    Нагревательный элемент (спираль или сетка) нагревается от батареи. <br />
+                                    Фитиль (чаще всего из органического хлопка) пропитывается жидкостью и подает ее к нагревательному элементу. <br />
+                                    Корпус испарителя обеспечивает герметичность и защиту компонентов. <br />
+                                    <b>Виды испарителей:</b><br />
+                                    1.Сопротивление: от 0.6 до 1.2 Ом. <br />
+	                                2.Тип: спираль (coil) или сетка (mesh) <br />
+                                    <b>Влияние сопротивления на парение</b> <br />
+                                    0.6–0.8 Ом: больше пара, подходит для DTL (прямой легочной затяжки). <br />
+                                    1.0–1.2 Ом: меньше пара, подходит для MTL (косвенной затяжки).  <br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-6" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(6)">&times;</span>
+                        <h2>Жевательный табак</h2>
+                        <div class="modal-content-description">
+                            <img src="./images/снюс.webp" alt="Жевательный табак" />
+                            <div>
+                                <div>
+                                    <h3>
+                                        Снюс и жевательный табак — это бездымные продукты с никотином, которые
+                                        закладываются под верхнюю губу или жуются, позволяя получать никотин без курения.
+                                    </h3>
+                                </div>
+                                <div>
+                                    <p>
+                                        <b>Arqa</b> – Высокая, ментол, классический, табачный; <br />
+                                        <b>Odens</b> – Очень высокая, классический, ментол, фруктовый; <br />
+                                        <b>Fedrs</b> – Средняя, мятный, лёгкий табачный; <br />
+                                        <b>Siberia</b> – Очень высокая, ментол, мята; <br />
+                                        <b>Iceberg</b> – Средняя, ментоловый; <br />
+                                        <b>Kasta</b> – Средняя, фруктовые, ментол;  <br />
+                                        <b>CHN</b> – Средняя, классический, ментол; <br />
+                                        <b>Lyft</b> – Средняя, ментоловый, фруктовый; <br />
+                                        <b>Faff</b> – Средняя, ментоловый, ягодный; <br />
+                                        <b>RandM</b> – Высокая, табачный, фруктовый; <br />
+                                        <b>Shok</b> – Средняя, фруктовый, ментол; <br />
+                                        <b>Mad</b> – Высокая, табачный, ментол; <br />
+                                        <b>Velo</b> – Лёгкая/Средняя, ментоловый, фруктовый; <br /> 
+                                        <b>Loop </b> – Средняя, фруктовые миксы; <br />
+                                        <b>Hype</b> – Средняя, фруктовые, мятные. <br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-7" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(7)">&times;</span>
+                        <h2>Кальяны</h2>
+                        <div class="modal-content-description">
+                            <img src="./images/кальян.jpg" alt="Кальяны" />
+                            <div>
+                                <p>
+                                    Кальяны — это классический способ наслаждаться ароматным дымом и приятно проводить время
+                                    в компании или наедине с собой. Сегодня они стали не просто устройством для курения, 
+                                    а настоящим атрибутом отдыха и стиля жизни. Современные кальяны отличаются качественными материалами, 
+                                    стильным дизайном и удобством в использовании, обеспечивая мягкую тягу, насыщенный вкус и яркий аромат 
+                                    табака.
+                                </p>
+                                <p>
+                                    В ассортименте можно найти как компактные модели для дома и путешествий, так и большие классические 
+                                    кальяны, которые станут центром внимания на вечеринке или в лаунж-зоне. Широкий выбор брендов и 
+                                    ценовых категорий позволяет подобрать кальян для любого бюджета и предпочтений.
+                                </p>
+                                <p>
+                                    Также у нас представлены все необходимые аксессуары: чаши, колбы, шланги, мундштуки, уголь, 
+                                    устройства для его розжига и многое другое. Для ценителей вкуса — огромный выбор табаков различных 
+                                    крепостей и ароматов: фруктовые, мятные, десертные, классические табачные смеси и уникальные миксы, 
+                                    которые подарят новые ощущения.
+                                </p>
+                                <p>
+                                    Кальян — это всегда особая атмосфера, релакс и наслаждение, а правильно подобранный набор сделает 
+                                    процесс курения максимально комфортным и приятным.
+                                </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modal-8" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal(8)">&times;</span>
+                        <h2>Табак</h2>
+                        <div class="modal-content-description">
+                            <img src="./images/табак.jpg" alt="Табак" />
+                            <div>
+                                <p>
+                                    Табак для кальяна — это основа приятного и насыщенного курения. Сегодня производители
+                                    предлагают широкий ассортимент вкусов и крепостей, чтобы каждый мог найти свой идеальный вариант. 
+                                    В нашем каталоге представлены самые известные бренды, которые завоевали любовь курильщиков по всему 
+                                    миру.
+                                </p>
+                                <p>
+                                    Darkside — премиальный табак с богатым вкусом и разнообразной линейкой: от насыщенных фруктовых до 
+                                    необычных миксов. Отличается крепостью и долгим раскрытием аромата.
+                                </p>
+                                <p>
+                                    Must Have — табак с яркими и сочными вкусами, известный своей средней крепостью и большим выбором 
+                                    фруктовых и десертных ароматов.
+                                </p>
+                                <p>
+                                    Blackburn — крепкий табак с уникальными сочетаниями вкусов, отлично подходит для опытных ценителей кальяна.
+                                </p>
+                                <p>
+                                    Brusko — универсальный вариант с демократичной ценой, большим выбором вкусов и оптимальной крепостью, подойдёт 
+                                    как новичкам, так и любителям.
+                                </p>
+                                <p>
+                                    Помимо этих брендов, в ассортименте есть и другие производители с широкой палитрой вкусов: ягодные, цитрусовые, 
+                                    тропические, мятные, десертные, классические табачные смеси и оригинальные миксы.
+                                </p>
+                                <p>
+                                    Табак подбирается под настроение и компанию: лёгкий — для комфортного отдыха, средней крепости — для яркого и насыщенного вкуса,
+                                    а крепкий — для настоящих ценителей кальянного дыма.
+                                </p>
+                                <p>
+                                    Качественный табак — это гарантия того, что кальян подарит не только удовольствие, но и особую атмосферу.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="call-to-action">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <h3>Мы здесь ради вас</h3>
+                        <div class="button">
+                            <a href="https://chat.whatsapp.com/CEJpo9LqfuKJ5ntWm6lV31?mode=ems_wa_c&amp;text=Здравствуйте, я пишу вам с сайта dimxaus.com" target="_blank" class="action-btn">
+                                <span id="whatsup">Написать в WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer" id="contact">
+                <div class="container">
+                    <div class="adress">
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.0041945086546!2d131.05493327631498!3d49.01050517135311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ef4723e44274121%3A0x5939d1e3e60a3bb2!2z0YPQuy4g0JTQtdC90LjRgdC-0LLQsCwgMTksINCe0LHQu9GD0YfRjNC1LCDQldCy0YDQtdC50YHQutCw0Y8g0LDQstGC0L7QvdC-0LzQvdCw0Y8g0L7QsdC70LDRgdGC0YwsIDY3OTEwMg!5e0!3m2!1sru!2sru!4v1756261062640!5m2!1sru!2sru" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="info">
+                            <h4>Наш адрес</h4>
+                            <p>ул. Денисова, 19, Облучье, Еврейская автономная область</p>
+                            <p>Режим работы: Понедельник - Воскресенье 10:00 - 21:00</p>
+                            <h4 >Телефон</h4>
+                            <p><a href="tel:+79241522900">&#9742 ( +7 ) 926 152 2900 </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © <time>2025</time> Samadofff.<br>All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
